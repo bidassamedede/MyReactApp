@@ -1,7 +1,7 @@
 import { useState } from "react";
 import abi from "./abi.json";
 import "./App.css";
-import { ethers } from "ethers"; // Make sure ethers is installed with `npm install ethers`
+import { ethers } from "ethers";
 
 function App() {
     const [userInput, setUserInput] = useState("");
